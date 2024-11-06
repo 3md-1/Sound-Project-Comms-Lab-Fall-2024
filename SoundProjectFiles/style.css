@@ -115,11 +115,11 @@ body, html {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.8); /* low alpha black */
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* Ensure it's on top */
+    z-index: 9999; /* ensure that its on top */
 }
 
 /* Play button styles */
@@ -127,7 +127,7 @@ body, html {
     padding: 20px 40px;
     font-size: 24px;
     color: white;
-    background-color: #ff4500; /* Bright color for the button */
+    background-color: #ff4500; /* brighter color for the button */
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -143,4 +143,5 @@ body, html {
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
+    color: white;
 }
