@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background with PNGs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlay">
+      <button id="play-button">Play</button>
+    </div>
+    <div id="end-overlay" style="display:none;"> <!-- Initially hidden -->
+        <div class="message">
+            <h1>The End!</h1>
+        </div>
+    </div>
+    <div id="container">
+        <!-- Background image -->
+        <img id="background" src="pexels-apasaric-2105239 (1).jpg" alt="Background">
+        <img id="svg-top" src="title1.svg" alt="SVG Image">
+
+        <!-- PNG images layered on top of the background -->
+        <div class="image-container">
+            <img src="image1.png" class="layered-img img-1" alt="Image 1">
+            <img src="image2.png" class="layered-img img-2" alt="Image 2">
+            <img src="image3.png" class="layered-img img-3" alt="Image 3">
+            <img src="image4.png" class="layered-img img-4" alt="Image 4">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
