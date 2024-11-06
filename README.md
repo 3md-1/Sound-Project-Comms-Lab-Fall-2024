@@ -1,7 +1,6 @@
 # Sound Project Comms Lab Fall 2024
 # Comms Lab Group Assignment, 'Sound Project; Ambulance Purgatory' by Ahmed, Ziya, Tiffany and Yerk
 
-Storage low … 8% left of your 20 GB individual storage. To prevent interruptions, free up space or talk to your administrator.
 # Sound Project.md
 # Sound Project 
 <h3 align="left">Languages and Tools:</h3>
